@@ -1,0 +1,263 @@
+:root {
+	--primary-brand: #4d5ae5;
+	--pressed-state: #404bbf;
+	--dark: #2e2f42;
+	--success: #31d0aa;
+	--text: #434455;
+	--subtle-text: #8e8f99;
+	--accent: #e7e9fc;
+	--light: #f4f4fd;
+	--modal-overlay: #2e2f42;
+	--hero-background: #2e2f42;
+}
+
+/* -------------------MAIN PAGE---------------------- */
+
+body {
+	background-color: #ffffff;
+	color: var(--text);
+
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+}
+
+/* -------------------GLOBAL---------------------- */
+
+a {
+	text-decoration: none;
+	font-style: normal;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+.list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.visually-hidden {
+	white-space: nowrap;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+/* -------------------HEADER---------------------- */
+
+.logo {
+	color: var(--dark);
+
+	font-family: Raleway;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+.web {
+	color: var(--primary-brand);
+}
+
+/* -------------------SITE NAV---------------------- */
+
+.header__link {
+	color: var(--dark);
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+.current,
+.header__link:hover,
+.header__link:focus {
+	color: var(--pressed-state);
+}
+
+.address__link {
+	color: var(--text);
+
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+.address__link:hover,
+.address__link:focus {
+	color: var(--pressed-state);
+}
+
+/* -------------------HERO---------------------- */
+
+.hero {
+	background: var(--hero-background);
+}
+
+.hero__title {
+	color: var(--light);
+	font-size: 56px;
+	line-height: 1.1;
+
+	text-align: center;
+	letter-spacing: 0.02em;
+}
+
+/* -------------------BUTTON---------------------- */
+
+.button {
+	color: var(--light);
+	background-color: var(--primary-brand);
+	cursor: pointer;
+	border: 0mm;
+	border-radius: 4px;
+
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.04em;
+}
+.button:hover,
+.button:focus {
+	color: var(--light);
+	background-color: var(--pressed-state);
+}
+
+/* -------------------PORTFOLIO BUTTON--------------------- */
+
+.button__portfolio {
+	color: var(--primary-brand);
+	background-color: var(--light);
+	cursor: pointer;
+	border: 0mm;
+	border-radius: 4px;
+
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.04em;
+}
+.button__portfolio:hover,
+.button__portfolio:focus {
+	color: var(--light);
+	background-color: var(--pressed-state);
+}
+
+/* -------------------FEATURES SECTION---------------------- */
+
+.features__title {
+	color: var(--dark);
+
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.features__description {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+/* -------------------WORK SECTION---------------------- */
+
+.work__title,
+.team__title {
+	color: var(--dark);
+
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+}
+
+/* -------------------TEAM SECTION---------------------- */
+
+.team {
+	background: var(--light);
+}
+
+.team__element {
+	background-color: var(--light);
+}
+
+.team__member {
+	color: var(--dark);
+
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.02em;
+}
+
+.team__text {
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.02em;
+}
+
+/* -------------------PORTFOLIO---------------------- */
+
+.portfolio__item {
+	color: var(--dark);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+
+	letter-spacing: 0.02em;
+}
+
+.portfolio__text {
+	font-size: 16px;
+	line-height: 1.5;
+
+	letter-spacing: 0.02em;
+}
+
+/* -------------------FOOTER---------------------- */
+
+.footer {
+	background: var(--dark);
+}
+
+.footer__logo {
+	color: var(--light);
+}
+
+.footer__text {
+	color: var(--accent);
+
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
