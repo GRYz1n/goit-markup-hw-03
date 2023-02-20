@@ -127,7 +127,7 @@ p {
 
 /* -------------------BUTTON---------------------- */
 
-.button {
+.btn {
 	color: var(--light);
 	background-color: var(--primary-brand);
 	cursor: pointer;
@@ -141,32 +141,19 @@ p {
 	text-align: center;
 	letter-spacing: 0.04em;
 }
-.button:hover,
-.button:focus {
+.button,
+.btn--portfolio:hover,
+.button,
+.btn--portfolio:focus {
 	color: var(--light);
 	background-color: var(--pressed-state);
 }
 
 /* -------------------PORTFOLIO BUTTON--------------------- */
 
-.button__portfolio {
+.btn--portfolio {
 	color: var(--primary-brand);
 	background-color: var(--light);
-	cursor: pointer;
-	border: 0mm;
-	border-radius: 4px;
-
-	font-family: Roboto, sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	text-align: center;
-	letter-spacing: 0.04em;
-}
-.button__portfolio:hover,
-.button__portfolio:focus {
-	color: var(--light);
-	background-color: var(--pressed-state);
 }
 
 /* -------------------FEATURES SECTION---------------------- */
