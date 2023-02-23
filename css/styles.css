@@ -13,7 +13,7 @@
 
 /* -------------------MAIN PAGE---------------------- */
 
-.body {
+body {
 	background-color: #ffffff;
 	color: var(--text);
 
@@ -47,7 +47,7 @@ p {
 	margin: 0;
 }
 
-.list {
+li {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -69,17 +69,17 @@ p {
 /* -------------------FLEXBOX---------------------- */
 
 .container {
+	width: 1158px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-	width: 1128px;
 	outline: 2px solid tomato;
 }
 
-/* .section {
-	padding-top: 94px;
-	padding-bottom: 94px;
-} */
+.section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
 
 /* -------------------HEADER---------------------- */
 
@@ -128,8 +128,8 @@ p {
 /* -------------------HERO---------------------- */
 
 .hero {
-	width: 1440px;
-	height: 600px;
+	padding-top: 188px;
+	padding-bottom: 188px;
 	text-align: center;
 
 	background: var(--hero-background);
