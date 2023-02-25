@@ -28,7 +28,8 @@ a {
 	font-style: normal;
 }
 
-ul {
+ul,
+ol {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -107,6 +108,14 @@ li {
 
 /* -------------------SITE NAV---------------------- */
 
+.header,
+.header__nav,
+.header__menu,
+.address__list {
+	display: flex;
+	align-items: center;
+}
+
 .header__link {
 	color: var(--dark);
 
@@ -128,6 +137,13 @@ li {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
+
+.header__list,
+.address__item {
+	display: inline;
+	margin-right: 40px;
+}
+
 .address__link:hover,
 .address__link:focus {
 	color: var(--pressed-state);
@@ -137,7 +153,7 @@ li {
 
 .hero {
 	padding-top: 188px;
-	padding-bottom: 188px;
+	padding-bottom: 292px;
 	text-align: center;
 
 	background: var(--hero-background);
@@ -183,6 +199,11 @@ li {
 
 /* -------------------PORTFOLIO BUTTON--------------------- */
 
+.navigation__list {
+	display: flex;
+	align-items: center;
+}
+
 .btn--portfolio {
 	color: var(--primary-brand);
 	background-color: var(--light);
@@ -215,6 +236,12 @@ li {
 
 .work {
 	padding-top: 0;
+}
+
+.work__list,
+.team__list {
+	display: flex;
+	align-items: center;
 }
 
 .work__title,
