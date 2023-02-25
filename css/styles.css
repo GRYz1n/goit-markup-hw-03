@@ -73,7 +73,8 @@ li {
 	width: 1188px;
 	padding-left: 15px;
 	padding-right: 15px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	outline: 2px solid tomato;
 }
 
@@ -153,10 +154,14 @@ li {
 
 .hero {
 	padding-top: 188px;
-	padding-bottom: 292px;
+	padding-bottom: 188px;
 	text-align: center;
 
 	background: var(--hero-background);
+}
+
+.container--hero {
+	width: 525px;
 }
 
 .hero__title {
@@ -210,6 +215,19 @@ li {
 }
 
 /* -------------------FEATURES SECTION---------------------- */
+
+.features__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.features__element {
+	width: 264px;
+}
+
+.features__element:not(:last-child) {
+	margin-right: 24px;
+}
 
 .features__title {
 	margin-bottom: 8px;
