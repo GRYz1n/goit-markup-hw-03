@@ -191,6 +191,8 @@ li {
 /* -------------------FEATURES SECTION---------------------- */
 
 .features__title {
+	margin-bottom: 8px;
+
 	color: var(--dark);
 
 	font-weight: 500;
@@ -198,6 +200,10 @@ li {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 }
+
+/* .features__description:not(:last-child) {
+	margin-right: 24px;
+} */
 
 .features__description {
 	font-size: 16px;
@@ -213,6 +219,8 @@ li {
 
 .work__title,
 .team__title {
+	margin-bottom: 72px;
+
 	color: var(--dark);
 
 	font-size: 36px;
