@@ -252,15 +252,14 @@ li {
 	padding-top: 0;
 }
 
-.work__list:not(:last-child),
-.team__list:not(:last-child) {
-	margin-right: 24px;
-}
-
 .work__list,
 .team__list {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+}
+
+.work__list .work__element:not(:last-child) {
+	margin-right: 24px;
 }
 
 .work__title,
@@ -280,6 +279,10 @@ li {
 
 .team {
 	background: var(--light);
+}
+
+.team__list .team__element:not(:last-child) {
+	margin-right: 24px;
 }
 
 .team__element {
