@@ -9,6 +9,7 @@
 	--light: #f4f4fd;
 	--modal-overlay: #2e2f42;
 	--hero-background: #2e2f42;
+	--white: #ffffff;
 }
 
 /* -------------------MAIN PAGE---------------------- */
@@ -91,7 +92,6 @@ li {
 /* -------------------HEADER---------------------- */
 
 .logo {
-	display: block;
 	padding: 24px 0 24px;
 
 	color: var(--dark);
@@ -117,6 +117,12 @@ li {
 	align-items: center;
 }
 
+.header__nav {
+	display: flex;
+	padding: 24px 0 24px;
+	margin-left: 76px;
+}
+
 .header__link {
 	color: var(--dark);
 
@@ -125,10 +131,16 @@ li {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
+
 .current,
 .header__link:hover,
 .header__link:focus {
 	color: var(--pressed-state);
+}
+
+.address__list {
+	margin-left: 332px;
+	padding: 24px 0 24px;
 }
 
 .address__link {
@@ -141,8 +153,13 @@ li {
 
 .header__list,
 .address__item {
-	display: inline;
+	/* display: flex; */
 	margin-right: 40px;
+}
+
+.header__list:last-child,
+.address__item:last-child {
+	margin-right: 0px;
 }
 
 .address__link:hover,
@@ -258,7 +275,7 @@ li {
 	justify-content: space-between;
 }
 
-.work__list .work__element:not(:last-child) {
+.work__element:not(:last-child) {
 	margin-right: 24px;
 }
 
@@ -281,12 +298,24 @@ li {
 	background: var(--light);
 }
 
-.team__list .team__element:not(:last-child) {
-	margin-right: 24px;
+.team__list .team__element:last-child {
+	margin-right: 0px;
 }
 
 .team__element {
 	background-color: var(--light);
+	margin-right: 30px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.team__card {
+	padding: 32px 16px;
+	background-color: var(--white);
+	text-align: center;
+	border-radius: 0px 0px 4px 4px;
 }
 
 .team__member {
