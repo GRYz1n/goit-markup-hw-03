@@ -161,7 +161,7 @@ li {
 }
 
 .container--hero {
-	width: 525px;
+	width: 530px;
 }
 
 .hero__title {
@@ -240,10 +240,6 @@ li {
 	letter-spacing: 0.02em;
 }
 
-/* .features__description:not(:last-child) {
-	margin-right: 24px;
-} */
-
 .features__description {
 	font-size: 16px;
 	line-height: 1.5;
@@ -256,10 +252,15 @@ li {
 	padding-top: 0;
 }
 
+.work__list:not(:last-child),
+.team__list:not(:last-child) {
+	margin-right: 24px;
+}
+
 .work__list,
 .team__list {
 	display: flex;
-	align-items: center;
+	justify-content: space-evenly;
 }
 
 .work__title,
