@@ -127,7 +127,6 @@ li {
 }
 
 .header__nav {
-	display: flex;
 	padding: 24px 0 24px;
 	margin-left: 76px;
 }
@@ -162,7 +161,6 @@ li {
 
 .header__list,
 .address__item {
-	/* display: flex; */
 	margin-right: 40px;
 }
 
