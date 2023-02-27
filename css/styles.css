@@ -71,7 +71,7 @@ li {
 /* -------------------FLEXBOX---------------------- */
 
 .container {
-	width: 1188px;
+	width: 1158px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;
@@ -138,8 +138,8 @@ li {
 	color: var(--pressed-state);
 }
 
-.address__list {
-	margin-left: 332px;
+.address {
+	margin-left: auto;
 	padding: 24px 0 24px;
 }
 
@@ -211,6 +211,14 @@ li {
 	text-align: center;
 	letter-spacing: 0.04em;
 }
+
+.btn--portfolio {
+	height: auto;
+	min-width: auto;
+	margin-right: 24px;
+	padding: 12px 24px 12px 24px;
+}
+
 .button,
 .btn--portfolio:hover,
 .button,
@@ -337,6 +345,25 @@ li {
 
 /* -------------------PORTFOLIO---------------------- */
 
+.navigation__list {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 72px;
+}
+
+.portfolio__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	padding: 0;
+	margin: 0;
+	margin-top: calc(-1 * var(--card-set-gap));
+	margin-left: calc(-1 * var(--card-set-gap));
+}
+
+.portfolio__card {
+}
+
 .portfolio__item {
 	color: var(--dark);
 	font-weight: 500;
@@ -357,6 +384,10 @@ li {
 
 .footer {
 	background: var(--dark);
+}
+
+.footer__container {
+	padding: 100px 0 100px;
 }
 
 .footer__logo {
