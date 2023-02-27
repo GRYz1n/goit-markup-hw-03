@@ -285,7 +285,6 @@ li {
 .work__list,
 .team__list {
 	display: flex;
-	justify-content: space-between;
 }
 
 .work__element:not(:last-child) {
@@ -317,7 +316,7 @@ li {
 
 .team__element {
 	background-color: var(--light);
-	margin-right: 30px;
+	margin-right: 24px;
 	box-sizing: border-box;
 	box-shadow: var(--card-shadow);
 	border-radius: 5px;
