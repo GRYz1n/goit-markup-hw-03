@@ -248,7 +248,7 @@ li {
 
 .features__list {
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 }
 
 .features__element {
@@ -315,13 +315,14 @@ li {
 }
 
 .team__element {
-	background-color: var(--light);
 	margin-right: 24px;
 	box-sizing: border-box;
 	box-shadow: var(--card-shadow);
 	border-radius: 5px;
 	overflow: hidden;
 	border-radius: 4px;
+
+	background-color: var(--light);
 }
 
 .team__card {
