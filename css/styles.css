@@ -201,9 +201,9 @@ li {
 /* -------------------BUTTON---------------------- */
 
 .btn {
-	height: 56px;
+	min-height: 56px;
 	min-width: 169px;
-	padding: 10px 32px;
+	padding: 16px 32px;
 
 	color: var(--light);
 	background-color: var(--primary-brand);
@@ -220,7 +220,6 @@ li {
 }
 
 .btn--portfolio {
-	height: auto;
 	min-width: auto;
 	margin-right: 24px;
 	padding: 12px 24px 12px 24px;
