@@ -127,11 +127,12 @@ li {
 }
 
 .header__nav {
-	padding: 24px 0 24px;
 	margin-left: 76px;
 }
 
 .header__link {
+	display: block;
+	padding: 24px 0 24px;
 	color: var(--dark);
 
 	font-weight: 500;
@@ -148,10 +149,11 @@ li {
 
 .address {
 	margin-left: auto;
-	padding: 24px 0 24px;
 }
 
 .address__link {
+	display: block;
+	padding: 24px 0 24px;
 	color: var(--text);
 
 	font-size: 16px;
@@ -220,7 +222,6 @@ li {
 
 .btn--portfolio {
 	min-width: auto;
-	margin-right: 24px;
 	padding: 12px 24px 12px 24px;
 }
 
@@ -234,21 +235,29 @@ li {
 
 /* -------------------PORTFOLIO BUTTON--------------------- */
 
+.portfolio__section {
+	padding-top: 96px;
+	padding-bottom: 120px;
+}
+
 .navigation__list {
-	display: flex;
 	align-items: center;
+}
+
+.navigation__li:not(:last-child) {
+	margin-right: 24px;
 }
 
 .btn--portfolio {
 	color: var(--primary-brand);
 	background-color: var(--light);
+	border: 1px solid var(--cornflower);
 }
 
 /* -------------------FEATURES SECTION---------------------- */
 
 .features__list {
 	display: flex;
-	/* justify-content: space-between; */
 }
 
 .features__element {
@@ -363,15 +372,13 @@ li {
 .portfolio__list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 24px;
+	gap: 48px 24px;
 	padding: 0;
 	margin: 0;
-	margin-top: calc(0 * var(--card-set-gap));
-	margin-left: calc(0 * var(--card-set-gap));
 }
 
 .portfolio__element {
-	margin-bottom: 48px;
+	width: 360px;
 	box-shadow: var(--card-shadow);
 }
 
@@ -407,16 +414,12 @@ li {
 /* -------------------FOOTER---------------------- */
 
 .footer {
+	padding: 100px 16px 100px;
 	background: var(--dark);
 }
 
-.footer__container {
-	padding: 100px 16px 100px;
-}
-
 .footer__logo {
-	display: block;
-	width: 264px;
+	display: inline-block;
 	margin-bottom: 16px;
 	padding: 0;
 	color: var(--light);
